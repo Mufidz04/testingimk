@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #42455a;
+}
+
+.container{
+    background: #F2F3FF;
+    width: 100%;
+
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul il{
+    list-style: none;
+    margin: 0 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.active{
+    color: #5A5DA4 !important;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 140px;
+    position: absolute;
+    color:#F2F3FF;
+}
+
+.app-picture{
+    width: 50%;
+    float: right;
+    margin: 150px;
+    padding-right: 100px ;
+}
+
+.app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+
+}
